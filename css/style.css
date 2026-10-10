@@ -173,6 +173,8 @@ a:hover { color: var(--ink); }
 .ftr__col a:hover, .ftr__col a[aria-current="page"] { color: var(--cream); }
 .ftr__bar { margin-top: clamp(36px, 5vw, 56px); padding-top: 22px; border-top: 1px solid rgba(245, 241, 232, .12); display: flex; flex-wrap: wrap; gap: 14px 32px; align-items: center; justify-content: space-between; font-family: var(--mono); font-size: 9px; letter-spacing: .2em; text-transform: uppercase; color: rgba(245, 241, 232, .42); }
 .ftr__bar em { font-style: normal; display: flex; align-items: center; gap: 10px; }
+.ftr__bar a { color: inherit; }
+.ftr__bar a:hover { color: var(--cream); }
 .ftr__bar em::before { content: ""; width: 18px; height: 1px; background: var(--od); }
 
 /* ── Legal pages ──────────────────────────────────────── */
